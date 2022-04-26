@@ -1,0 +1,404 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #201b2c;
+}
+
+/* navbar */
+header li,a,button{
+    color: #edf0f1;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header{
+    width: 100vw;
+    background-color: #2f2841;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a{
+    transition: all .4s ease 0s;
+}
+
+.nav-links li a:hover{
+    background-color: #00ff88;
+    padding: 12px;
+    border-radius: 50px;
+    color:#000000;
+    font-weight: bold;
+    transition: all .7s ease 0s;
+}
+
+.btn-nav{
+    padding: 9px 25px;
+    font-weight: bold;
+    color: #2b134b;
+    background-color: #00ff88;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all .4s ease 0s;
+}
+
+.btn-nav:hover{
+    background-color: #00ff8890;
+}
+
+/* Main */
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Left Login */
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login > h1 {
+    color: #00ff88;
+    font-size: 2.6vw;
+    margin-top: 50px;
+    margin-bottom: 46px;
+}
+
+.imagem{
+    width: 25vw;
+}
+
+/* Right login / card */
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 15px #00000056;
+}
+
+.card-login > h1{
+    color: #00ff88;
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #514869;
+    color: #f0ffffde;
+    font-size: 16px;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label{
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.textfield > input::placeholder{
+    color: #f0ffff94;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #2b134b;
+    background-color: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+    transition: 0.3s ease;
+}
+
+.btn-login:hover{
+    background-color: #00d371;
+}
+
+/* Cards */
+.cards{
+   color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 50px;
+   margin: 5% 0px 5%;
+}
+
+div.card img{
+    width: 50px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #2f2841;
+    padding: 2.5rem 2.5rem;
+    border-radius: 8px;
+    max-height: 500px;
+    margin-left: 64px;
+    margin-bottom: 64px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card h3{
+    font-size: 120%;
+    margin: 15px;
+}
+
+.card span{
+    font-size: 95%;
+    max-width: 250px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.card:first-child{
+    margin-left: 0;
+}
+
+.card button{
+    background-color: #00ff88;
+    transition: .4s ease;
+    padding: 1rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 80%;
+    font-weight: bold;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+.card button:hover{
+    background-color: #00d371;
+    color: #201b2c;
+}
+
+/* Footer */
+footer{
+    background-color: #050507;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    text-align: justify;
+    margin: 10px auto;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i{
+    font-size: 1.3rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: #00ff88;
+}
+
+.footer-bottom{
+    background-color: #000000;
+    width: 100vw;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.footer-bottom .personal-link{
+    text-decoration: none;
+    color: #fff;
+    transition: .4 ease;
+}
+
+.footer-bottom .personal-link:hover{
+    color: #00ff88;
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media screen and (max-width: 860px){
+    .cards{
+        flex-direction: column;
+    }
+       
+    .card{
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+
+    header{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 800px){
+    .card-login{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 950px){
+    .main-login{
+        flex-direction: column;
+    }
+
+    .left-login > h1{
+        display: none;
+    }
+
+    .left-login{
+        width: 100%;
+        height: auto;
+    }
+
+    .imagem{
+        width: 30vh;
+        margin-bottom: 10px;
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+
+    .right-login{
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .card-login{
+        width: 75%;
+        margin-top: 20px;
+    }
+
+    .footer-content{
+        width: 100vw;
+    }
+
+    .footer-content p{
+        padding: 15px;
+    }
+
+    .footer-bottom{
+        padding: 10px;
+    }
+
+}
