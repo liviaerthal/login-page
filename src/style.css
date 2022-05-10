@@ -49,11 +49,7 @@ header{
 }
 
 .nav-links li a:hover{
-    background-color: #00ff88;
-    padding: 12px;
-    border-radius: 50px;
-    color:#000000;
-    font-weight: bold;
+    color:#00ff88;
     transition: all .7s ease 0s;
 }
 
@@ -80,7 +76,6 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 /* Left Login */
@@ -96,13 +91,13 @@ header{
 
 .left-login > h1 {
     color: #00ff88;
-    font-size: 2.6vw;
-    margin-top: 50px;
-    margin-bottom: 46px;
+    font-size: 2.7rem;
+    margin-bottom: 30px;
 }
 
 .imagem{
     width: 25vw;
+    margin-bottom: 100px;
 }
 
 /* Right login / card */
@@ -117,7 +112,6 @@ header{
 
 .card-login{
     width: 60%;
-    margin-top: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -405,3 +399,18 @@ footer{
     }
 
 }
+
+@media only screen and (min-width: 1024px){
+
+    .left-login > h1{
+        text-align: center;
+        font-size: 2.2rem;
+        width: 100%;
+    }
+
+    .left-login > img{
+        width: 50%;
+    }
+
+}
+
