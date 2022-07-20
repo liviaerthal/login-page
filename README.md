@@ -1,13 +1,13 @@
-# Responsive Login Page
+# Página de Login Responsiva
 
-In this project I implemented small things that I learned while studying HTML and CSS, such as *responsive cards, footer and navigation bar*
+Nesse pequeno projeto, eu implementei algumas coisas que eu estava aprendendo, como cards responsivos, navbar e formulário de login
 
 ## 🖥 Preview
 <img src="readme.gif" alt="gid-readme">
  
-## 🚀 Technologies 
+## 🚀 Tecnologias 
 * HTML
 * CSS
 
-## ⚠️ Future Changes
-* Implement new features while learning
+## ⚠️ Futuras Mudanças
+* Implementar novas coisas enquanto aprendo
